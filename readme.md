@@ -56,7 +56,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## De website
 
-- Mijn website die ik ga namaken is patta.nl, dit is een kledingmerk website die ik interessant vind en interessante aspecten biedt om na te maken. Ik zat nog erg te twijfelen of ik het wel of niet moest doen aangezien het een webshop is. Dit ga ik dan ook aanstaande les vragen. [I'm an inline style link](https://www.patta.nl/) -
+- Mijn website die ik ga namaken is patta.nl, dit is een kledingmerk website die ik interessant vind en interessante aspecten biedt om na te maken. Ik zat nog erg te twijfelen of ik het wel of niet moest doen aangezien het een webshop is. Dit ga ik dan ook aanstaande les vragen. [Patta website](https://www.patta.nl/) -
 
 **Screenshot(s):**
 
