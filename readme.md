@@ -60,8 +60,8 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 **Screenshot(s):**
 
-![Screenshots](images/patta_website.PNG)
-![Screenhots](images/patta_website2.PNG)
+![Screenshots](images/patta_website.png)
+![Screenhots](images/patta_website2.png)
 **Breakdown-schets(en):**
 
-![-Breakdownschets-](images/breakdownschets.PNG)
+![-Breakdownschets-](images/breakdownschets.png)
