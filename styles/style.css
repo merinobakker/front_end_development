@@ -1,5 +1,85 @@
 /* CSS Document */
-*, *::after, *::before {
-  box-sizing:border-box;  
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
 }
 
+body {
+  margin: 0;
+}
+
+header {
+  position: relative;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-family: 'Anton',
+    sans-serif;
+  letter-spacing: 0.03em;
+  padding: 0 20px 1em;
+}
+
+.navigation {
+  color: #969696;
+}
+
+.logo {
+  width: 30%;
+}
+
+.menu {
+  width: 15%;
+}
+
+h1 {
+  font-family: 'Anton',
+    sans-serif;
+  font-size: 2.8em;
+  letter-spacing: 0.03em;
+  line-height: 1em;
+  text-align: left;
+  padding: 0 20px 1em;
+}
+
+.foto1 {
+  padding: 0 20px 1em;
+  width: 100%;
+}
+
+.foto2 {
+  padding-top: 1em;
+  padding-left: 4em;
+  overflow: hidden;
+  width: 100%;
+}
+
+.foto3 {
+  padding-top: 1em;
+  padding-right: 4em;
+  overflow: hidden;
+  width: 100%;
+}
+
+.foto4 {
+  padding: 1em 20px 1em;
+  width: 100%;
+}
+
+.footer1 {
+  background-color: black;
+  margin: 0;
+}
+
+h3 {
+  font-family: 'Anton',
+    sans-serif;
+  letter-spacing: 0.04em;
+  color: white;
+  line-height: 1em;
+  text-align: left;
+  padding: 0 20px;
+}
