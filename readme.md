@@ -28,6 +28,8 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Voortgang 1 (week 3)
 
+- Mijn voortgang is opzich best goed gegaan alleen had ik een beetje weinig. Dit omdat ik de tijd was veregeten. Wel was ik blij met het uiteindelijke resultaat en had ik zelfs al een beetje CSS gedaan dus daar was ik blij mee. Link naar Codepen: [I'm an inline style link](https://codepen.io/HansMerijnPeter)
+
 ### Stand van zaken
 
 -dit ging goed & dit was lastig-
@@ -38,11 +40,11 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ### Agenda voor meeting
 
--samen met je groepje opstellen-
+- De eerste meeting was een uur voor het eerste gesprek dus dat was vrijdag 18 September om 9:50.
 
 ### Verslag van meeting
 
--na afloop snel uitkomsten vastleggen-
+- De meeting was met Bas en mijn groepje. Ik heb erg aandachtig geluisterd naar de andere studenten om te kijken wat voor feedback zij kregen en of ik deze dan kon gebruiken en dat is gelukt. Zelf heb ik ook erg goede feedback kunnen krijgen om zo mijn ontwerp te gaan maken straks. Zoals: Logo moet in de NAV, shoppingbag en hamburger menu ook. Daarnaast kan ik pert 3 foto's alles per container stylen om zo het makkelijk voor mezelf te maken. Dus per 3 producten een container en deze dan zo stylen.
 
 # Intake
 
