@@ -20,7 +20,7 @@ hoe ik dit volgende keer allemaal beter had kunnen doen, naast het plannen dan n
 ik het gewoon echt leuk vond en daar baal ik echt van.
 
 **Screenshot(s):**
-![Screenshots](images/1.png)
+![voortgang1](images/menu.png)
 
 ## Voortgang 3 (week 6)
 
