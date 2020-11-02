@@ -21,10 +21,6 @@ ik het gewoon echt leuk vond en daar baal ik echt van.
 
 **Screenshot(s):**
 ![Screenshots](images/1.png)
-![Screenshots](images/2.png)
-![Screenshots](images/3.png)
-![Screenshots](images/4.png)
-![Screenshots](images/5.png)
 
 ## Voortgang 3 (week 6)
 
