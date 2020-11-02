@@ -1,16 +1,54 @@
 /* CSS Document */
-*,
-*::after,
-*::before {
+* {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 
-body {
+/*GROTE TEKSTEN*/
+h3 {
+  font-family: 'Anton',
+    sans-serif;
+  letter-spacing: 0.04em;
+  color: white;
+  line-height: 1em;
+  text-align: left;
+  padding: 0 20px;
+}
+
+
+h1 {
+  font-family: 'Anton',
+    sans-serif;
+  font-size: 2.8em;
+  letter-spacing: 0.03em;
+  line-height: 1em;
+  text-align: left;
+  padding: 0 20px 1em;
+  color: black;
+  margin-top: 10%;
+}
+
+/*NAVIGATIE*/
+
+a {
   margin: 0;
 }
 
-header {
-  position: relative;
+.shop {
+  width: 8%;
+  height: 8%;
+  margin-top: 12%;
+  margin-right: -3%;
+}
+
+.logo {
+  margin-top: 5%;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
 }
 
 ul {
@@ -19,8 +57,7 @@ ul {
   padding: 0;
   font-family: 'Anton',
     sans-serif;
-  letter-spacing: 0.03em;
-  padding: 0 20px 1em;
+  letter-spacing: 0.2em;
 }
 
 .navigation {
@@ -35,51 +72,639 @@ ul {
   width: 15%;
 }
 
-h1 {
-  font-family: 'Anton',
-    sans-serif;
-  font-size: 2.8em;
-  letter-spacing: 0.03em;
-  line-height: 1em;
-  text-align: left;
-  padding: 0 20px 1em;
+/*HORIZONTAL NAV*/
+/* ik maak hier een horizontale navigatie doormiddel van overflow op de x-as met auto*/
+.horizontal {
+  font-size: em;
+  max-height: 110px;
+  display: flex;
+  color: #969696;
+  overflow-x: auto;
 }
 
+.horizontal .text {
+  min-width: 110px;
+  height: 50px;
+  line-height: 80px;
+  text-align: center;
+  margin-right: 70px;
+  letter-spacing: 0.09em;
+}
+
+.text2 {
+  min-width: 230px;
+  height: 50px;
+  line-height: 80px;
+  text-align: center;
+  margin-right: 30px;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-family: 'Anton',
+    sans-serif;
+  letter-spacing: 0.2em;
+}
+
+/*HAMBURGER MENU BUTTON*/
+/* Dit is het hamburger menu wat erg veel werk kostte, je werkt hier met eigenlijk een streepje die je ineen before en after systeem zet waardoor je met 3 strepen een hamburger menu kan creeeren*/
+.menu-button {
+  display: flex;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  transition: all .4s ease-in-out;
+  margin-top: 12%;
+  margin-left: -3%
+}
+
+.menu-button__burger {
+  width: 30px;
+  height: 3px;
+  background: black;
+  border-radius: 4px;
+  box-shadow: 0 3px 5px rgba(235, 76, 43, .1);
+  transition: all .4s ease-in-out;
+}
+
+.menu-button__burger::before,
+.menu-button__burger::after {
+  content: '';
+  position: absolute;
+  width: 30px;
+  height: 3px;
+  background: black;
+  border-radius: 2px;
+  box-shadow: 0 3px 5px rgba(235, 76, 43, .1);
+  transition: all .4s ease-in-out;
+}
+
+.menu-button__burger::before {
+  transform: translateY(-10px);
+}
+
+.menu-button__burger::after {
+  transform: translateY(10px);
+}
+
+/*ANIMATIE HAMBURGER MENU*/
+.menu-button.open .menu-button__burger {
+  transform: translateX(-10px);
+  background: transparent;
+  box-shadow: none;
+}
+
+.menu-button.open .menu-button__burger::before {
+  transform: rotate(45deg) translate(10px, -10px);
+}
+
+.menu-button.open .menu-button__burger::after {
+  transform: rotate(-45deg) translate(10px, 10px)
+}
+
+/*FOTO"S MET OVERLAY*/
+/* Je werkt hier met een container, afbeelding, overlay, text en overlayeffect. Alle samen gecombineerd zorgt wanneer een hover ingezet wordt er over de afbeelding een waas komt met een stukje tekst.*/
+
+.container1 {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+}
+
+.container2 {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+}
+
+.container3 {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+}
+
+.container4 {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+}
+
+.container5 {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+}
+
+.container6 {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+}
+
+.container7 {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+}
+
+.container8 {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+}
+
+.container9 {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+}
+
+.container10 {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+}
+
+
 .foto1 {
+  display: block;
   padding: 0 20px 1em;
   width: 100%;
 }
 
 .foto2 {
+  display: block;
   padding-top: 1em;
   padding-left: 4em;
-  overflow: hidden;
   width: 100%;
 }
 
 .foto3 {
+  display: block;
   padding-top: 1em;
   padding-right: 4em;
-  overflow: hidden;
   width: 100%;
 }
 
 .foto4 {
+  display: block;
   padding: 1em 20px 1em;
   width: 100%;
 }
 
-.footer1 {
-  background-color: black;
-  margin: 0;
+.foto5 {
+  display: block;
+  padding-top: 1em;
+  padding-left: 4em;
+  width: 100%;
 }
 
-h3 {
+.foto6 {
+  display: block;
+  padding-top: 1em;
+  padding-right: 4em;
+  width: 100%;
+}
+
+.foto7 {
+  display: block;
+  padding: 1em 20px 1em;
+  width: 100%;
+}
+
+.foto8 {
+  display: block;
+  padding-top: 1em;
+  padding-left: 4em;
+  width: 100%;
+}
+
+.foto9 {
+  display: block;
+  padding-top: 1em;
+  padding-right: 4em;
+  width: 100%;
+}
+
+.foto10 {
+  display: block;
+  padding: 1em 20px 1em;
+  width: 100%;
+}
+
+.overlay1 {
+  position: absolute;
+  transition: all .3s ease-in;
+  opacity: 0;
+  background-color: #ffffff;
+}
+
+.overlay2 {
+  position: absolute;
+  transition: all .3s ease-in;
+  opacity: 0;
+  background-color: #ffffff;
+}
+
+.overlay3 {
+  position: absolute;
+  transition: all .3s ease-in;
+  opacity: 0;
+  background-color: #ffffff;
+}
+
+.overlay4 {
+  position: absolute;
+  transition: all .3s ease-in;
+  opacity: 0;
+  background-color: #ffffff;
+}
+
+.overlay5 {
+  position: absolute;
+  transition: all .3s ease-in;
+  opacity: 0;
+  background-color: #ffffff;
+}
+
+.overlay6 {
+  position: absolute;
+  transition: all .3s ease-in;
+  opacity: 0;
+  background-color: #ffffff;
+}
+
+.overlay7 {
+  position: absolute;
+  transition: all .3s ease-in;
+  opacity: 0;
+  background-color: #ffffff;
+}
+
+.overlay8 {
+  position: absolute;
+  transition: all .3s ease-in;
+  opacity: 0;
+  background-color: #ffffff;
+}
+
+.overlay9 {
+  position: absolute;
+  transition: all .3s ease-in;
+  opacity: 0;
+  background-color: #ffffff;
+}
+
+.overlay10 {
+  position: absolute;
+  transition: all .3s ease-in;
+  opacity: 0;
+  background-color: #ffffff;
+}
+
+
+.container1:hover .overlay1 {
+  opacity: 0.7;
+}
+
+.container2:hover .overlay2 {
+  opacity: 0.7;
+}
+
+.container3:hover .overlay3 {
+  opacity: 0.7;
+}
+
+.container4:hover .overlay4 {
+  opacity: 0.7;
+}
+
+.container5:hover .overlay5 {
+  opacity: 0.7;
+}
+
+.container6:hover .overlay6 {
+  opacity: 0.7;
+}
+
+.container7:hover .overlay7 {
+  opacity: 0.7;
+}
+
+.container8:hover .overlay8 {
+  opacity: 0.7;
+}
+
+.container9:hover .overlay9 {
+  opacity: 0.7;
+}
+
+.container10:hover .overlay10 {
+  opacity: 0.7;
+}
+
+.text1 {
+  color: black;
   font-family: 'Anton',
     sans-serif;
-  letter-spacing: 0.04em;
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+  font-size: 24px;
+}
+
+.text20 {
+  color: black;
+  font-family: 'Anton',
+    sans-serif;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 30px;
+}
+
+.text3 {
+  color: black;
+  font-family: 'Anton',
+    sans-serif;
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+  font-size: 30px;
+}
+
+.text4 {
+  color: black;
+  font-family: 'Anton',
+    sans-serif;
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+  font-size: 24px;
+}
+
+.text5 {
+  color: black;
+  font-family: 'Anton',
+    sans-serif;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 25px;
+}
+
+.text6 {
+  color: black;
+  font-family: 'Anton',
+    sans-serif;
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+  font-size: 30px;
+}
+
+.text7 {
+  color: black;
+  font-family: 'Anton',
+    sans-serif;
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+  font-size: 24px;
+}
+
+.text8 {
+  color: black;
+  font-family: 'Anton',
+    sans-serif;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 30px;
+}
+
+.text9 {
+  color: black;
+  font-family: 'Anton',
+    sans-serif;
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+  font-size: 30px;
+}
+
+.text10 {
+  color: black;
+  font-family: 'Anton',
+    sans-serif;
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+  font-size: 24px;
+}
+
+.overlayEffect1 {
+  height: 100%;
+  width: 100%;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  background-color: #ffffff9d;
+}
+
+.overlayEffect2 {
+  height: 100%;
+  width: 100%;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  background-color: #ffffff9d;
+}
+
+.overlayEffect3 {
+  height: 100%;
+  width: 100%;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  background-color: #ffffff9d;
+}
+
+.overlayEffect4 {
+  height: 100%;
+  width: 100%;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  background-color: #ffffff9d;
+}
+
+.overlayEffect5 {
+  height: 100%;
+  width: 100%;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  background-color: #ffffff9d;
+}
+
+.overlayEffect6 {
+  height: 100%;
+  width: 100%;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  background-color: #ffffff9d;
+}
+
+.overlayEffect7 {
+  height: 100%;
+  width: 100%;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  background-color: #ffffff9d;
+}
+
+.overlayEffect8 {
+  height: 100%;
+  width: 100%;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  background-color: #ffffff9d;
+}
+
+.overlayEffect9 {
+  height: 100%;
+  width: 100%;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  background-color: #ffffff9d;
+}
+
+.overlayEffect10 {
+  height: 100%;
+  width: 100%;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  background-color: #ffffff9d;
+}
+
+.container1:hover .overlayEffect1 {
+  opacity: 1;
+}
+
+.container2:hover .overlayEffect2 {
+  opacity: 1;
+}
+
+.container3:hover .overlayEffect3 {
+  opacity: 1;
+}
+
+.container4:hover .overlayEffect4 {
+  opacity: 1;
+}
+
+.container5:hover .overlayEffect5 {
+  opacity: 1;
+}
+
+.container6:hover .overlayEffect6 {
+  opacity: 1;
+}
+
+.container7:hover .overlayEffect7 {
+  opacity: 1;
+}
+
+.container8:hover .overlayEffect8 {
+  opacity: 1;
+}
+
+.container9:hover .overlayEffect9 {
+  opacity: 1;
+}
+
+.container10:hover .overlayEffect10 {
+  opacity: 1;
+}
+
+/*FOOTER*/
+
+footer {
+  background-color: black;
+  margin: 0;
+  padding: 0;
+}
+
+.logo_footer {
+  width: 50%;
+  position: relative;
+  top: 10px;
+  left: 5.5em;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+.subscribe {
+  font-size: 27px;
+  letter-spacing: 0.05em;
+  margin-bottom: 2em;
+}
+
+form {
+  margin-left: 1.3em;
+  margin-bottom: 3em;
+  width: 100%;
+}
+
+/* Hier maak ik een form met alleen een bottom die kleur*/
+.input {
+  background-color: black;
+  border-width: 100%;
+  border-bottom: #969696;
+  top: 1em;
+  border: 3em;
+  border: solid 1px;
+  padding: 0 0 0.8em 0;
+  border-color: #969696;
+  border-top: black;
+  border-left: black;
+  border-right: black;
+}
+
+.footerli {
+  font-family: 'Anton',
+    sans-serif;
   color: white;
-  line-height: 1em;
-  text-align: left;
-  padding: 0 20px;
+  margin-left: 1.3em;
+  font-size: 18px;
+  line-height: 2.8em;
+}
+
+ul {
+  margin-bottom: 2em;
+}
+
+/*sociale media afbeelding*/
+.socials {
+  margin-left: 1.3em;
+  margin-bottom: 2.5em;
 }
