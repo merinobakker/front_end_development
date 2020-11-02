@@ -1,42 +1,42 @@
 # Procesverslag
 
-**Auteur:** -Merijn Bakker-
+**Auteur:** Merijn Bakker
 
-Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet). Nb. de standaardstructuur en de spartaanse opmaak zijn helemaal prima. Het gaat om de inhoud van je procesverslag. Besteedt de tijd voor pracht en praal aan je website.
+Dit is mijn procesverslag, voor zover je dat kan noemen. Door allerlei redenen ben ik niet blij met mijn proces van Frontend development. Maar dat heb ik helaas allemaal zelf gedaan.
+Hier onder heb ik toch een proces proberen vorm te geven met het proces dat ik had.
 
 ## Bronnenlijst
 
-1. -bron 1-
-2. -bron 2-
-3. -...-
+1. -Patta-
+2. -Youtube.com-
 
 ## Eindgesprek (week 7/8)
 
--dit ging goed & dit was lastig-
+### Stand van zaken
+
+In wat ik nog heb kunnen neerzetten was het niet moeilijk maar ook net makkelijk. Ik heb namelijk een pagina kunnen maken omdat ik nog vakken moest herkansen. Het hamburger menu maken was even uitvogelen maar ben er wel uit gekomen. De overlay maken was niet moeilijk maar kostte veel tijd en veel css regels. Ik heb niet alles kunnen verwerken wat
+deze pagina verreiste. Daarnaast moest ik langer door na 18:00 dus dacht dat het inleveren beter geweest zodat Randy dit kon nakijken en bespreken. Het is erg minimaal maar ik wilde gewoon een gesprek kunnen hebben en
+hoe ik dit volgende keer allemaal beter had kunnen doen, naast het plannen dan natuurlijk want daar ging dit vooral om. Veelste laat begonnen en dat is jammer, want ik merkte tijdens het coderen dat
+ik het gewoon echt leuk vond en daar baal ik echt van.
 
 **Screenshot(s):**
-
--screenshot(s) van je eindresultaat-
+![Screenshots](images/1
+![Screenshots](images/2)
+![Screenshots](images/3)
+![Screenshots](images/4)
+![Screenshots](images/5)
 
 ## Voortgang 3 (week 6)
 
--same as voortgang 1-
+Ook hier heb ik geen voortgang kunnen maken.
 
 ## Voortgang 2 (week 5)
 
--same as voortgang 1-
+Mijn voortgang van deze week is helaas zo gebleven.
 
 ## Voortgang 1 (week 3)
 
-- Mijn voortgang is opzich best goed gegaan alleen had ik een beetje weinig. Dit omdat ik de tijd was veregeten. Wel was ik blij met het uiteindelijke resultaat en had ik zelfs al een beetje CSS gedaan dus daar was ik blij mee. Link naar Codepen: [I'm an inline style link](https://codepen.io/HansMerijnPeter)
-
-### Stand van zaken
-
--dit ging goed & dit was lastig-
-
-**Screenshot(s):**
-
--screenshot(s) van hoe ver je bent-
+- Mijn voortgang is opzich best goed gegaan alleen had ik een beetje weinig. Dit omdat ik de tijd was veregeten. Wel was ik blij met het uiteindelijke resultaat en had ik zelfs al een beetje CSS gedaan dus daar was ik blij mee.
 
 ### Agenda voor meeting
 
